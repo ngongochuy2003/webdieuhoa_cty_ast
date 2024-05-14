@@ -1,0 +1,40 @@
+(user product.vue : lấy sản phẩm url: api/SanPham/GetProductIntop10
+          tìm theo tên : api/SanPham/GetProductByName
+          tìm theo hãng : api/SanPham/GetProductBrand
+          lấy sp theo trạng thái : api/SanPham/GetProductBysatus
+product2.vue : getproduct : api/SanPham/GetProductBysatus
+Searchinfilter.vue : api/Hang/GetAllBrand
+                 api/SanPham/FindByFilter
+showcarrier.vue : api/Hang/GetAllBrand
+                  api/Hang/GetBrandByName
+Detailproduct.vue : api/SanPham/GetProductById
+Formcontact.vue : api/SanPham/GetProductById
+                  api/QuanLyForm/CreateNewForm )
+(admin 
+component : chart.vue : api/SanPham/GetProductStatisticskInWeek
+page : brand -> index.vue : Hang/GetAllBrand
+                            api/Hang/HideBrand
+       create-brand : api/Hang/AddBrand
+       create-item : api/SanPham/AddProduct
+                     api/Hang/GetAllBrand
+       form-user : api/QuanLyForm/GetAllUser
+                   api/QuanLyForm/DeleteForm
+                   api/QuanLyForm/GetUserByName
+                   api/QuanLyForm/FindFormByFilter
+       item : api/Hang/GetAllBrand
+              api/SanPham/FindByFilter
+              api/SanPham/GetAllProduct
+              api/SanPham/GetProductByName
+              api/SanPham/DeleteProduct
+       login : api/UserAuthenticate/UserLogin
+       update-brand : api/Hang/GetBrandById
+                      api/Hang/UpdateBrand
+       update-form : api/SanPham/GetProductById
+                     api/SanPham/UpdateProduct
+                     api/Hang/GetAllBrand
+       update-item : api/SanPham/GetProductById
+                     api/SanPham/UpdateProduct
+                     api/Hang/GetAllBrand
+
+
+
